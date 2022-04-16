@@ -1,6 +1,6 @@
 const discord = require("discord.js")
 const Database = require("./Database.js")
-
+//YEET
 const Client = new discord.Client(
   {intents:[
     (1<<0), //Guild
