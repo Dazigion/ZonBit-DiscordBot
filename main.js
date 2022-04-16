@@ -39,7 +39,8 @@ Client.on('messageCreate',async (message)=>{
 
 
 sleep(5).then(()=>{
-	Client.login("OTQ4MTYzODMxOTMzMzE3MTky.Yh30YQ.4LOnZfyY4DnHS2JKeAxG1e2Tl8Q") // i have no clue on how github work
+	require('dotenv').config()
+	Client.login(process.env.DiscordToken) // i have no clue on how github work
 })
 
 
